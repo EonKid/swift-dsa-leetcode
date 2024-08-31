@@ -1,6 +1,9 @@
 import Foundation
 
 /**
+ 
+ Binary search is an efficient algorithm used to find the position of a target value within a sorted array. It works by repeatedly dividing the search interval in half. If the target value is less than the value in the middle of the interval, the search continues in the lower half, or if the target value is greater, it continues in the upper half. This process is repeated until the target value is found or the interval is empty.
+ 
  Performs a binary search on a sorted array to find the index of a given key using recursion.
  
  - Parameters:
